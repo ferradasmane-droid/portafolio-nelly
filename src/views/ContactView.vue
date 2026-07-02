@@ -24,13 +24,10 @@
           GitHub
         </a>
 
-        <a
-          href="https://www.linkedin.com/"
-          target="_blank"
-          rel="noopener noreferrer"
+        <span
         >
-          LinkedIn
-        </a>
+          LinkedIn en mantención
+        </span>
       </div>
     </section>
   </main>
