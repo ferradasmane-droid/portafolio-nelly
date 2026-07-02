@@ -169,7 +169,7 @@ Recibe la información del proyecto mediante props y muestra:
 - Descripción.
 - Tecnologías.
 - Enlace al repositorio.
-- Enlace a demo, si existe.
+- Enlace a demo
 
 ---
 
