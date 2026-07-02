@@ -19,6 +19,7 @@ export const useProjectsStore = defineStore('projects', {
         ],
         repo: 'https://github.com/ferradasmane-droid/vue-app-clima-m8',
         demo: '',
+        status: 'Finalizado',
       },
       {
         id: 2,
