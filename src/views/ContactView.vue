@@ -24,8 +24,7 @@
           GitHub
         </a>
 
-        <span
-        >
+        <span class="link-mantencion">
           LinkedIn en mantención
         </span>
       </div>

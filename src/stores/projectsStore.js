@@ -22,13 +22,14 @@ export const useProjectsStore = defineStore('projects', {
       },
       {
         id: 2,
-        title: 'Raíces y Tapices Chiloé',
-        type: 'Proyecto web',
+        title: 'Portal Turístico Chiloé',
+        type: 'Proyecto web turístico',
         description:
-          'Propuesta de sitio web para un emprendimiento local de tapicería, restauración y turismo creativo en Chiloé, con enfoque visual e identidad territorial.',
-        technologies: ['HTML', 'CSS', 'JavaScript', 'Responsive Design'],
+          'Propuesta de sitio web orientada a promover el turismo en Chiloé, mostrando comunas, paisajes, cultura local, gastronomía, alojamientos y actividades turísticas con una interfaz clara y visualmente atractiva.',
+        technologies: ['Vue 3', 'JavaScript', 'CSS', 'Responsive Design'],
         repo: '',
         demo: '',
+        status: 'En desarrollo',
       },
       {
         id: 3,
@@ -39,6 +40,7 @@ export const useProjectsStore = defineStore('projects', {
         technologies: ['Vue 3', 'Eventos', 'v-model', 'CSS'],
         repo: '',
         demo: '',
+        status: 'Proyecto académico',
       },
       {
         id: 4,
@@ -49,6 +51,7 @@ export const useProjectsStore = defineStore('projects', {
         technologies: ['Vue 3', 'Vitest', 'Vue Test Utils', 'Testing'],
         repo: '',
         demo: '',
+        status: 'Proyecto académico'
       },
     ],
   }),

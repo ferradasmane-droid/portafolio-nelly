@@ -10,11 +10,12 @@
       {{ project.description }}
     </p>
 
+    <p v-if="project.status" class="project-status">
+      {{ project.status }}
+    </p>
+
     <ul class="tech-list">
-      <li
-        v-for="technology in project.technologies"
-        :key="technology"
-      >
+      <li v-for="technology in project.technologies" :key="technology">
         {{ technology }}
       </li>
     </ul>
@@ -47,5 +48,5 @@ defineProps({
     type: Object,
     required: true,
   },
-})
+});
 </script>
