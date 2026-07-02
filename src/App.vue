@@ -2,21 +2,11 @@
   <div class="app">
     <HeaderPortfolio />
 
-    <main>
-      <HeroSection />
-      <AboutSection />
-      <SkillsSection />
-      <ProjectsSection />
-      <ContactSection />
-    </main>
+    <RouterView />
   </div>
 </template>
 
 <script setup>
+import { RouterView } from 'vue-router'
 import HeaderPortfolio from './components/HeaderPortfolio.vue'
-import HeroSection from './components/HeroSection.vue'
-import AboutSection from './components/AboutSection.vue'
-import SkillsSection from './components/SkillsSection.vue'
-import ProjectsSection from './components/ProjectsSection.vue'
-import ContactSection from './components/ContactSection.vue'
 </script>

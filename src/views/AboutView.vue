@@ -1,12 +1,12 @@
 <template>
-  <section id="sobre-mi" class="section sobre-mi">
-    <div class="section-titulo">
+  <main class="section">
+    <div class="section-title">
       <p>Sobre mí</p>
-      <h2>Perfil profesional</h2>
+      <h1>Perfil profesional</h1>
     </div>
 
     <div class="about-grid">
-      <div class="about-texto">
+      <section class="about-box">
         <p>
           Soy una persona responsable, perseverante y con experiencia en atención
           de público, ventas, organización administrativa y resolución de problemas.
@@ -20,17 +20,52 @@
           Mi objetivo es desarrollar productos web útiles, mantenibles y con una
           buena experiencia para el usuario.
         </p>
-      </div>
+      </section>
 
-      <div class="about-card">
-        <h3>Objetivo</h3>
+      <section class="about-card">
+        <h2>Objetivo</h2>
+
         <p>
           Integrarme al área TI como desarrolladora Front-End Trainee,
           aportando compromiso, aprendizaje continuo y orientación al usuario.
         </p>
-      </div>
+      </section>
     </div>
-  </section>
+
+    <section class="section skills-section">
+      <div class="section-title">
+        <p>Stack técnico</p>
+        <h2>Habilidades y herramientas</h2>
+      </div>
+
+      <div class="skills-grid">
+        <span
+          v-for="skill in skills"
+          :key="skill"
+          class="skill-card"
+        >
+          {{ skill }}
+        </span>
+      </div>
+    </section>
+  </main>
 </template>
 
-<script setup></script>
+<script setup>
+const skills = [
+  'HTML5',
+  'CSS3',
+  'SASS',
+  'JavaScript',
+  'Vue 3',
+  'Composition API',
+  'Vue Router',
+  'Pinia',
+  'Consumo de APIs',
+  'Git',
+  'GitHub',
+  'Vitest',
+  'Vue Test Utils',
+  'Responsive Design',
+]
+</script>
