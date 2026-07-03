@@ -18,7 +18,7 @@ export const useProjectsStore = defineStore('projects', {
           'Vitest',
         ],
         repo: 'https://github.com/ferradasmane-droid/vue-app-clima-m8',
-        demo: 'https://portafolio-nelly-5u4rt6f7f-ferradasmane-droids-projects.vercel.app',
+        demo: 'https://portafolio-nelly-8ardmi5b9-ferradasmane-droids-projects.vercel.app',
         status: 'Finalizado',
       },
       {
